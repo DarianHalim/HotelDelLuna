@@ -1,0 +1,190 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.Container {
+    margin: 0;
+    padding: 0;
+}
+
+.navbarContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+}
+
+
+.Maintitle{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutUsTitle{
+    padding-left: 2rem;
+}
+
+.bookingTitle{
+    text-align: right;
+    padding-right: 2rem;
+}
+
+
+.welcomeMessageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.welcomeParagraphContainer {
+    width: 75%;
+    position: absolute;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+.welcomeImgContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    object-fit: cover;
+    background-color: rebeccapurple;
+    overflow: hidden;
+}
+
+.welcomeImg {
+    height: auto;
+    width: 100%;
+    position: relative;
+    margin-bottom: -50px;
+    filter: brightness(70%);
+}
+
+.cardAboutUs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutUsImg {
+    height: auto;
+    width: 100%;
+    border-radius: 1rem;
+    
+}
+
+.facilitesImg{
+    height: auto;
+    width: 100%;
+}
+
+.aboutUsTextContainer {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.facilitesListContainer{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+
+.facilityImage{
+    height: auto;
+    width: 70%;
+    border-radius: 1rem;
+}
+
+.bookingContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+th,td,table{
+    border: 0.1rem;
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-collapse: collapse;
+}
+
+th,td{
+    padding-left: 1rem;
+    text-align: left;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+table{
+    width: 100%;
+}
+
+.bookandcontactContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.bookFormContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.bookButton{
+    width: 50%;
+    justify-self: center;
+    height: 3rem;
+    color: white;
+    font-weight: bold;
+    background-color: goldenrod;
+    border-radius: 1rem;
+}
+
+.bookButton:active{
+    background-color: black;
+    color: black;
+}
+
+.bookButton:hover{
+    color: black;
+}
+
+.bookButtonContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+
+.contactContainer{
+    text-align: left;
+}
+
+.contactsList{
+    display: flex;
+    flex-direction: column;
+}
