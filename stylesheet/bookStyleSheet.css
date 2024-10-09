@@ -4,6 +4,10 @@
 
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .navbarContainer {
     display: flex;
     flex-direction: row;
@@ -11,14 +15,19 @@
     position: fixed;
     width: 100%;
     font-weight: bold;
-    background-color: white;
+    background-color: black;
 }
 
 .navbarSpan{
-    color: black;
+    color: white;
+    font-size: 10rem
 }
 
-h1 {}
+a{
+    text-decoration: none;
+    font-size: 3rem;
+    color: white;
+}
 
 body {
     margin: 0;

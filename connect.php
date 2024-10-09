@@ -1,10 +1,15 @@
 <?php
 
+// Enable error reporting
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
+
 // DB account creation
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "bookingSystem";
+$servername = "sql302.infinityfree.com";
+$username = "if0_37478321";
+$password = "U8mK5kPFVVUFw ";
+$dbname = "deluna";
 
 //Create Koneksi
 $conn = new mysqli($servername,$username,$password,$dbname);
@@ -15,7 +20,7 @@ if ($conn->connect_error) {
 }
 
 //Ambil Data dari form booking
-$dbname = $_POST['name'];
+$name = $_POST['name'];
 $phone_no = $_POST['phone_no'];
 $email = $_POST['email'];
 $dob = $_POST['dob'];

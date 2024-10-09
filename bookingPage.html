@@ -12,25 +12,7 @@
 
     <div class="navbarContainer">
 
-        <span class="navbarSpan">
-            Home
-        </span>
-
-        <span class="navbarSpan">
-        About Us
-        </span>
-
-        <span class="navbarSpan">
-        Facilities
-        </span>
-
-        <span class="navbarSpan">
-            Book
-        </span>
-
-        <span class="navbarSpan">
-            Contact
-        </span>
+        <span class="navbarText"><a  href="./index.html">Home</a> </span>
     </div>
 
 
@@ -38,31 +20,32 @@
 
 
     <div>
-  <form  action="">
+        <form action="connect.php" method="POST"> 
 
         <div class="inputContainer">
             <label for="">Name</label>
-            <input type="text" required>
+            <input type="text" required name="name">
         </div>
 
         <div class="inputContainer">
             <label for="">Phone No</label>
-            <input type="number" required>
+            <input type="number" required name="phone_no">
         </div>
 
         <div class="inputContainer">
             <label for="">Email</label>
-            <input type="email" required>
+            <input type="email" required name="email">
         </div>
 
         <div class="inputContainer">
             <label for="">Date Of Birth</label>
-            <input type="date">
+            <input type="date" name="dob" >
         </div>
 
         <div class="inputContainer">
             <label for="">Room Type</label>
-           <select name="roomCategory" id="roomCategoryId" required>
+            <select name="room_type" id="roomCategoryId" required>
+
 
             <option value="">Pick Room Type</option>
             <option value="Small">Small</option>
@@ -76,15 +59,17 @@
 
         <div class="inputContainer">
             <label for="">Duration (Days)</label>
-            <input type="number" required>
+            <input type="number" name="duration" required >
         </div>
 
         <button type="submit">Book Room</button>
 
     </form>
+
+    <h1>We will Email You The Payment Details</h1>
+
     </div>
 
-  
 
 </body>
 
