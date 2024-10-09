@@ -8,8 +8,8 @@ error_reporting(E_ALL);
 // DB account creation
 $servername = "sql302.infinityfree.com";
 $username = "if0_37478321";
-$password = "U8mK5kPFVVUFw ";
-$dbname = "deluna";
+$password = "U8mK5kPFVVUFw";
+$dbname = "if0_37478321_deluna";
 
 //Create Koneksi
 $conn = new mysqli($servername,$username,$password,$dbname);
