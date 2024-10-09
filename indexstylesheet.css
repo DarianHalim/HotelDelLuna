@@ -20,8 +20,13 @@ body {
     justify-content: space-around;
     position: fixed;
     width: 100%;
+    font-weight: bold;
+    background-color: white;
 }
 
+.navbarSpan{
+    color: black;
+}
 
 .Maintitle{
     display: flex;
