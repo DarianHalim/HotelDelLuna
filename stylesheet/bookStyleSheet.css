@@ -4,10 +4,6 @@
 
 }
 
-html{
-    scroll-behavior: smooth;
-}
-
 .navbarContainer {
     display: flex;
     flex-direction: row;

@@ -14,10 +14,19 @@ body {
     padding: 0;
 }
 
-a{
+a.headerLinks{
     color: black;
     text-decoration: none;
     font-size: 3rem
+}
+
+@media only screen and (max-width: 600px) {
+    a.headerLinks{
+        color: black;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+
 }
 
 html{

@@ -1,0 +1,25 @@
+
+https://www.youtube.com/watch?v=TlB_eWDSMt4
+
+*global objects*
+// belong to windows object accesed via global
+// setTimeout()
+// clearTimeout();
+// setInterval()
+// clearInterval()
+// window.console.log
+// belong to windows object
+// console.log(global.message); will error
+
+
+function sayHello(name){
+    console.log('Hello' + name);
+}
+
+window.sayHello; // will override previous so try not to define global code for better modularity
+
+*modules*
+console.log(module); // not global
+
+
+
